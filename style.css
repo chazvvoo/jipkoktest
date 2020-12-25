@@ -293,7 +293,7 @@ margin: 40px 5px;
     align-items: left;
     flex-direction: column;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 650;
     line-height: 2;
     letter-spacing: -.3px;
     text-align: left;
@@ -420,3 +420,5 @@ list-style-type: square;
 	line-height: 24px;
 	font-weight: 500;
 	}
+
+

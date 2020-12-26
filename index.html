@@ -12,87 +12,95 @@
 			integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
 			crossorigin="anonymous"
 		/>
-		
-		<link rel="shortcut icon" href="./favicon2.ico" type="image/x-icon">
-	<link rel="icon" href="./favicon2.ico" type="image/x-icon">
+
+		<link rel="shortcut icon" href="./favicon2.ico" type="image/x-icon" />
+		<link rel="icon" href="./favicon2.ico" type="image/x-icon" />
 
 		<title>나한테 어울리는 집콕 라이프는?</title>
-		<meta name="description" content="집콕 라이프 테스트를 통해 내 성격과 어울리는 집콕 라이프를 알아보자. 강제 집콕러들 모여라!">
+		<meta
+			name="description"
+			content="집콕 라이프 테스트를 통해 내 성격과 어울리는 집콕 라이프를 알아보자. 강제 집콕러들 모여라!"
+		/>
+		
+		<meta name="keywords" content="집콕 테스트, 집콕 라이프 테스트, 성격 테스트, MBTI"/>
 
 		<link rel="stylesheet" href="style.css" />
 		<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5fe1de0ba7c1de34"></script>
-		
-		<meta property="og:url"                content="https://jipkoktest.site" />
-<meta property="og:type"               content="website" />
-<meta property="og:title"              content="나한테 어울리는 집콕 라이프는?" />
-<meta property="og:description"        content="집콕 라이프 테스트를 통해 내 성격과 어울리는 집콕 라이프를 알아보자. 강제 집콕러들 모여라!" />
-		<meta property="og:image" content="./ogimg2.png"/>
+		<script
+			type="text/javascript"
+			src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5fe1de0ba7c1de34"
+		></script>
+
+		<meta property="og:url" content="https://jipkoktest.site" />
+		<meta property="og:type" content="website" />
+		<meta property="og:keywords" content="집콕 테스트, 집콕 라이프 테스트, 성격 테스트, 집콕테스트, 집콕라이프, 집콕라이프테스트, 성격테스트. 테스트, 심리테스트. 심리 테스트, 성격, MBTI, 코로나, 집콕, 방콕, 코로나19" />
+		<meta property="og:title" content="나한테 어울리는 집콕 라이프는?" />
+		<meta
+			property="og:description"
+			content="집콕 라이프 테스트를 통해 내 성격과 어울리는 집콕 라이프를 알아보자. 강제 집콕러들 모여라!"
+		/>
+		<meta property="og:image" content="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2Fbw6UdX%2FbtqDCZh4rjB%2FHkvkMOuAykkqCuWKVhEVq1%2Fimg.png" />
 
 		<meta name="naver-site-verification" content="d30adfcfe759b7a2691e7eaac0152e29dbf68513" />
-		
-		<link rel="canonical" href="https://jipkoktest.site">
-		
+
+		<link rel="canonical" href="https://jipkoktest.site" />
 	</head>
 	<body>
-		<section class="quiz" >
-
-			<div class="box" >
-				
+		<section class="quiz">
+			<div class="box">
 				<span id="quiz_progress"></span>
 				<span2 id="quiz_question"></span2>
 				<h1 id="quiz_titles"></h1>
-				
+
 				<ul id="quiz_choices"></ul>
 				<button id="quiz_next" onclick="QUIZNext()">Button</button>
 				<p id="quiz_text"></p>
 				<button2 id="quiz_start" onclick="QUIZNext()">Button</button2>
 
-				
 				<div id="totalresults">
 					<h3 id="quiz_result_title"></h3>
 					<img id="result_img" src="" alt="" />
 					<h6 id="quiz_result_text"></h6>
-					<section id=quiz_result_infos>
-					<ul2>
-						<li id="quiz_result_info_1"></li>
-						<li id="quiz_result_info_2"></li>
-						<li id="quiz_result_info_3"></li>
-						<li id="quiz_result_info_4"></li>
-						<li id="quiz_result_info_5"></li>
-						<li id="quiz_result_info_6"></li>
-						<li id="quiz_result_info_7"></li>
-						<li id="quiz_result_info_8"></li>
-					</ul2>
+					<section id="quiz_result_infos">
+						<ul2>
+							<li id="quiz_result_info_1"></li>
+							<li id="quiz_result_info_2"></li>
+							<li id="quiz_result_info_3"></li>
+							<li id="quiz_result_info_4"></li>
+							<li id="quiz_result_info_5"></li>
+							<li id="quiz_result_info_6"></li>
+							<li id="quiz_result_info_7"></li>
+							<li id="quiz_result_info_8"></li>
+						</ul2>
 					</section>
-				
+
 					<h7 id="with_title"></h7>
 					<section2 class="quiz_result_with">
 						<div class="with_one" id="with_1">
 							<h9 id="with_1_title"></h9>
-							
 						</div>
 						<div class="with_two" id="with_2">
 							<h9 id="with_2_title"></h9>
-							
 						</div>
 					</section2>
-				
-					<h7 id="share_title"></h7>				
-					<section3 id=quiz_result_share>
-						
 
-                <!-- Go to www.addthis.com/dashboard to customize your tools -->
-                <div class="addthis_inline_share_toolbox_1675" style="text-align: center; margin: -65px 5px 20px;"></div>
-            
-            
+					<h7 id="share_title"></h7>
+					<section3 id="quiz_result_share">
+						<!-- Go to www.addthis.com/dashboard to customize your tools -->
+						<div
+							class="addthis_inline_share_toolbox_1675"
+							style="text-align: center; margin: -65px 5px 20px;"
+						></div>
 					</section3>
-					
-					<button3 id="quiz_restart" onclick="location.href='https://jipkoktest.site/';">Button
+
+					<button3 id="quiz_restart" onclick="location.href='https://jipkoktest.site/';"
+						>Button
 					</button3>
-					
+
 					<section4>
-						<h13 onclick="location.href='https://www.instagram.com/jipkok_test';"><br><br>제작 ｜ @jipkok_test<br>#stayathome</h13>
+						<h13 onclick="location.href='https://www.instagram.com/jipkok_test';"
+							><br /><br />제작 ｜ @jipkok_test (클릭)<br />#stayathome</h13
+						>
 					</section4>
 				</div>
 			</div>
@@ -107,24 +115,24 @@
 		></script>
 
 		<script type="text/javascript" src="javs.js"></script>
-		
-		
-		<p5 style="font-size: 10px; line-height: 18px;">광고 수익은 코로나19로 어려움을 겪고 있는 취약계층에 전액 기부됩니다.</p5>
-	<ins
-	class="kakao_ad_area"
-	style="display: none;"
-	data-ad-unit="DAN-gle5aZhJkz95rYPR"
-	data-ad-width="320"
-	data-ad-height="100"
-		  data-ad-onfail   = "callBackFunc"
-></ins>
-<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async>
-		function callBackFunc(arg1) {
-   /*
-    * TODO: 기능 구현
-    */
- }</script>
-		
 
+		<p5 style="font-size: 10px; line-height: 18px;"
+			>광고 수익은 코로나19로 어려움을 겪고 있는 취약계층에 전액 기부됩니다.</p5
+		>
+		<ins
+			class="kakao_ad_area"
+			style="display: none;"
+			data-ad-unit="DAN-gle5aZhJkz95rYPR"
+			data-ad-width="320"
+			data-ad-height="100"
+			data-ad-onfail="callBackFunc"
+		></ins>
+		<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async>
+				function callBackFunc(arg1) {
+			  /*
+			   * TODO: 기능 구현
+			   */
+			}
+		</script>
 	</body>
 </html>

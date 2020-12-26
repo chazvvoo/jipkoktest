@@ -556,18 +556,18 @@ function QUIZNext() {
 			'<h9>' +
 			__QUIZ.results.types[characterType].with1 +
 			'</h9>' +
-			'<img style="width:100%; height:100%;" src=' +
+			'<a href="https://www.instagram.com/jipkok_test"><img style="width:100%; height:100%;" src=' +
 			__QUIZ.results.types[characterType].with1_img +
-			'>';
+			'></a>';
 		QUIZElement('with_1_title').innerHTML = resultwith1HTML;
 
 		var resultwith2HTML =
 			'<h9>' +
 			__QUIZ.results.types[characterType].with2 +
 			'</h9>' +
-			'<img style="width:100%; height:100%;" src=' +
+			'<a href="https://www.instagram.com/jipkok_test"><img style="width:100%; height:100%;" src=' +
 			__QUIZ.results.types[characterType].with2_img +
-			'>';
+			'></a>';
 		QUIZElement('with_2_title').innerHTML = resultwith2HTML;
 
 		QUIZElement('share_title').innerHTML = '테스트 공유하기';
